@@ -1,0 +1,24 @@
+{
+  "name": "webpack-minin",
+  "version": "1.0.0",
+  "description": "webpack course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "webpack"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "resolve-cwd": "^3.0.0"
+  }
+}
